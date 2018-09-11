@@ -24,6 +24,5 @@ public class LauncherActivity extends Activity {
                 finish();
             }
         }, 2500);
-
     }
 }
