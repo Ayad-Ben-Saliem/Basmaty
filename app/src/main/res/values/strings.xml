@@ -1,9 +1,7 @@
 <resources>
     <string name="app_name">Basmaty</string>
 
-    <string name="btn_text">Click me</string>
-
-    <string name="title_activity_launcher">LauncherActivity</string>
+    <string name="title_activity_select_game">SelectGameActivity</string>
     <string name="dummy_button">Dummy Button</string>
     <string name="dummy_content">DUMMY\nCONTENT</string>
 </resources>
