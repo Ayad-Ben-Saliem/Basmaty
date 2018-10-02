@@ -9,7 +9,9 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".MainActivity" />
+        <activity
+            android:name=".MainActivity"
+            android:screenOrientation="landscape" />
         <activity
             android:name=".LauncherActivity"
             android:configChanges="orientation|keyboardHidden|screenSize"
@@ -26,9 +28,7 @@
             android:label="@string/title_activity_select_game"
             android:theme="@style/FullscreenTheme" />
         <activity android:name=".Test" />
-        <activity android:name=".MentalGameActivity" />
-        <activity android:name=".TrueFalseGameActivity" />
-        <activity android:name=".EducationalGameActivity"></activity>
+        <activity android:name=".Game1"></activity>
     </application>
 
 </manifest>
