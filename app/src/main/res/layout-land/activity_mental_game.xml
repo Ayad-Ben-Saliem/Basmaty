@@ -35,8 +35,8 @@
 
         <android.support.v7.widget.AppCompatImageView
             android:id="@+id/circlePlace"
-            android:layout_width="100dp"
-            android:layout_height="100dp"
+            android:layout_width="64dp"
+            android:layout_height="64dp"
             android:layout_margin="16dp"
             android:adjustViewBounds="true"
             android:gravity="center"
@@ -44,8 +44,8 @@
 
         <android.support.v7.widget.AppCompatImageView
             android:id="@+id/rectanglePlace"
-            android:layout_width="100dp"
-            android:layout_height="100dp"
+            android:layout_width="64dp"
+            android:layout_height="64dp"
             android:layout_margin="16dp"
             android:adjustViewBounds="true"
             android:gravity="center"
@@ -53,8 +53,8 @@
 
         <android.support.v7.widget.AppCompatImageView
             android:id="@+id/squarePlace"
-            android:layout_width="100dp"
-            android:layout_height="100dp"
+            android:layout_width="64dp"
+            android:layout_height="64dp"
             android:layout_margin="16dp"
             android:adjustViewBounds="true"
             android:gravity="center"
@@ -62,8 +62,8 @@
 
         <android.support.v7.widget.AppCompatImageView
             android:id="@+id/trianglePlace"
-            android:layout_width="100dp"
-            android:layout_height="100dp"
+            android:layout_width="64dp"
+            android:layout_height="64dp"
             android:layout_margin="16dp"
             android:adjustViewBounds="true"
             android:gravity="center"
@@ -76,7 +76,7 @@
         android:id="@+id/linearLayoutCompat"
         android:layout_width="match_parent"
         android:layout_height="127dp"
-        android:layout_marginBottom="64dp"
+        android:layout_marginBottom="16dp"
         android:gravity="center"
         android:orientation="horizontal"
         app:layout_constraintBottom_toBottomOf="parent"

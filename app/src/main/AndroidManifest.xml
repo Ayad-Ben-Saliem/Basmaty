@@ -25,7 +25,9 @@
             android:configChanges="orientation|keyboardHidden|screenSize"
             android:label="@string/title_activity_select_game"
             android:theme="@style/FullscreenTheme" />
-        <activity android:name=".Main2Activity"></activity>
+        <activity android:name=".MentalGameActivity" />
+        <activity android:name=".TrueFalseGameActivity" />
+        <activity android:name=".EducationalGameActivity"></activity>
     </application>
 
 </manifest>
