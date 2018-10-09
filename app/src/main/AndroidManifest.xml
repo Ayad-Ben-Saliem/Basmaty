@@ -27,7 +27,14 @@
             android:theme="@style/FullscreenTheme" />
         <activity android:name=".MentalGameActivity" />
         <activity android:name=".TrueFalseGameActivity" />
-        <activity android:name=".EducationalGameActivity"></activity>
+        <activity android:name=".EducationalGameActivity" />
+        <activity android:name=".MentalGame2Activity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
     </application>
 
 </manifest>

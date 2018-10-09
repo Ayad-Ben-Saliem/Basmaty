@@ -40,7 +40,7 @@
             android:layout_margin="16dp"
             android:adjustViewBounds="true"
             android:gravity="center"
-            app:srcCompat="@color/colorAccent" />
+            app:srcCompat="@drawable/circle_gray" />
 
         <android.support.v7.widget.AppCompatImageView
             android:id="@+id/rectanglePlace"
@@ -49,7 +49,7 @@
             android:layout_margin="16dp"
             android:adjustViewBounds="true"
             android:gravity="center"
-            app:srcCompat="@color/black_overlay" />
+            app:srcCompat="@drawable/rectangle_gray" />
 
         <android.support.v7.widget.AppCompatImageView
             android:id="@+id/squarePlace"
@@ -58,7 +58,7 @@
             android:layout_margin="16dp"
             android:adjustViewBounds="true"
             android:gravity="center"
-            app:srcCompat="@color/colorPrimary" />
+            app:srcCompat="@drawable/squar_gray" />
 
         <android.support.v7.widget.AppCompatImageView
             android:id="@+id/trianglePlace"
@@ -67,7 +67,7 @@
             android:layout_margin="16dp"
             android:adjustViewBounds="true"
             android:gravity="center"
-            app:srcCompat="@color/colorAccent" />
+            app:srcCompat="@drawable/triange_gray" />
 
     </GridLayout>
 
