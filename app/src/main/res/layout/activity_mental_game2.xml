@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/rootTwoLayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MentalGame2Activity">
+
+    <android.support.v7.widget.AppCompatImageView
+        android:id="@+id/appCompatImageView3"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_marginEnd="8dp"
+        android:adjustViewBounds="true"
+        android:scaleType="centerCrop"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:srcCompat="@drawable/front2_backg" />
+
+.
+    <GridLayout
+        android:id="@+id/imageContainar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        android:columnCount="2"
+        app:layout_constraintBottom_toTopOf="@+id/linearLayoutCompat"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/appCompatImageView3">
+
+        <android.support.v7.widget.AppCompatImageView
+            android:id="@+id/FourEmpty"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_margin="16dp"
+            android:adjustViewBounds="true"
+            android:gravity="center"
+            app:srcCompat="@drawable/fourempty" />
+
+        <android.support.v7.widget.AppCompatImageView
+            android:id="@+id/OneEmpty"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_margin="16dp"
+            android:adjustViewBounds="true"
+            android:gravity="center"
+            app:srcCompat="@drawable/oneempty" />
+
+        <android.support.v7.widget.AppCompatImageView
+            android:id="@+id/TwoEmpty"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_margin="16dp"
+            android:adjustViewBounds="true"
+            android:gravity="center"
+            app:srcCompat="@drawable/twoempty" />
+
+        <android.support.v7.widget.AppCompatImageView
+            android:id="@+id/ThreeEmpty"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_margin="16dp"
+            android:adjustViewBounds="true"
+            android:gravity="center"
+            app:srcCompat="@drawable/threeempty" />
+
+    </GridLayout>
+
+
+    <android.support.v7.widget.LinearLayoutCompat
+        android:id="@+id/linearLayoutCompat"
+        android:layout_width="match_parent"
+        android:layout_height="127dp"
+        android:layout_marginBottom="64dp"
+        android:gravity="center"
+        android:orientation="horizontal"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent">
+
+        <android.support.v7.widget.AppCompatImageView
+            android:id="@+id/Four"
+            android:layout_width="0dp"
+            android:layout_height="70dp"
+            android:layout_margin="16dp"
+            android:layout_weight="1"
+            android:adjustViewBounds="true"
+            android:gravity="center"
+            app:srcCompat="@drawable/four" />
+
+        <android.support.v7.widget.AppCompatImageView
+            android:id="@+id/Three"
+            android:layout_width="0dp"
+            android:layout_height="70dp"
+            android:layout_margin="16dp"
+            android:layout_weight="1"
+            android:adjustViewBounds="true"
+            app:srcCompat="@drawable/three" />
+
+        <android.support.v7.widget.AppCompatImageView
+            android:id="@+id/Two"
+            android:layout_width="0dp"
+            android:layout_height="70dp"
+            android:layout_margin="16dp"
+            android:layout_weight="1"
+            android:adjustViewBounds="true"
+            app:srcCompat="@drawable/two" />
+
+        <android.support.v7.widget.AppCompatImageView
+            android:id="@+id/One"
+            android:layout_width="0dp"
+            android:layout_height="70dp"
+            android:layout_margin="16dp"
+            android:layout_weight="1"
+            android:adjustViewBounds="true"
+            app:srcCompat="@drawable/one" />
+
+    </android.support.v7.widget.LinearLayoutCompat>
+
+
+</android.support.constraint.ConstraintLayout>

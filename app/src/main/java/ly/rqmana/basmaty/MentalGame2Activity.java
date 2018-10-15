@@ -28,7 +28,7 @@ public class MentalGame2Activity extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_metal_game2);
+        setContentView(R.layout.activity_mental_game2);
 
         One = findViewById(R.id.One);
         Two = findViewById(R.id.Two);
